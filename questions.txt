@@ -1,0 +1,4 @@
+Question 1 : What can you hear on this sound ?;A giraf;A bear;A bird;A lion;A bird;				BIRD SOUND
+Question 2 : How many times is the sound repeated ?;1 time;2 times;3 times;4 times;2 times;			REPEAT 2 times
+Question 3 : Which association can you make with this sound ?;Intel;AMD;Razer;Corsair;Intel;			INTEL
+Question 4 : How does this sound continue ?;In the goal;All around;Dead and gone;On the floor;On the floor	HEADS WILL ROLL

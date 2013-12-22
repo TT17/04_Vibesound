@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Black" >"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/home"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="vorige"
+                android:scaleType="fitCenter"
+                android:src="@drawable/home" />
+
+            <ImageButton
+                android:id="@+id/hiscores"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="volgende"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hiscores" />
+
+            <ImageButton
+                android:id="@+id/playpauze"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="playpauze"
+                android:scaleType="fitCenter"
+                android:src="@drawable/playpauze" />
+
+            <ImageButton
+                android:id="@+id/stop"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="volgende"
+                android:scaleType="fitCenter"
+                android:src="@drawable/stop" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/White" />
+
+        <Button
+            android:id="@+id/sound"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/Orange"
+            android:onClick="sound"
+            android:text="PLAY SOUND"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:text="Question"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/White"
+            android:textSize="25dp"
+            android:layout_weight="0.9" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/White" />
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:text="Answer"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/White"
+            android:textSize="25dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/White" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:onClick="option1"
+                android:text="Option1"
+                android:textColor="@color/White"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:onClick="option2"
+                android:text="Option2"
+                android:textColor="@color/White"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/option3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:onClick="option3"
+                android:text="Option3"
+                android:textColor="@color/White"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/option4"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:onClick="option4"
+                android:text="Option4"
+                android:textColor="@color/White"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/countdowntimer"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent"
+                android:onClick="countdown"
+                android:scaleType="fitCenter"
+                android:text="Countdowntimer"
+                android:textColor="@color/White"
+                android:textSize="23dp" />
+
+            <ImageButton
+                android:id="@+id/volgende"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:background="@android:color/transparent"
+                android:onClick="next"
+                android:scaleType="fitCenter"
+                android:src="@drawable/next" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

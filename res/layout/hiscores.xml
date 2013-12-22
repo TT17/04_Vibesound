@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:scaleType="fitCenter" >
+
+        <TextView
+            android:id="@+id/hiscoreTekst"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:text="HISCORES VIBESOUND"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/White" />
+        
+        <View
+ 		android:layout_width="match_parent"
+ 		android:layout_height="2dp"
+ 		android:background="@color/Orange" /> 
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:scaleType="fitCenter">
+
+            <TextView
+                android:id="@+id/nameTekst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textSize="23dp"
+                android:text="Name"
+                android:gravity="center"
+                android:textColor="@color/White"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <View
+		 		android:layout_width="2dp"
+		 		android:layout_height="match_parent"
+		 		android:background="@color/Orange" /> 
+            
+            <TextView
+                android:id="@+id/ScoreTekst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:text="Score"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/White" />
+
+        </LinearLayout>
+
+        <View
+ 		android:layout_width="match_parent"
+ 		android:layout_height="2dp"
+ 		android:background="@color/Orange" /> 
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center" >
+
+            <ListView
+                android:id="@+id/nameTabel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:gravity="center" 
+                android:layout_gravity="center" 
+                android:layout_centerInParent="true" >
+            </ListView>
+            
+            <View
+		 		android:layout_width="2dp"
+		 		android:layout_height="match_parent"
+		 		android:background="@color/Orange" /> 
+            
+            <ListView
+                android:id="@+id/scoreTabel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" 
+                android:gravity="center"
+                android:layout_gravity="center" 
+                android:layout_centerInParent="true" >
+            </ListView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
